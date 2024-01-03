@@ -260,3 +260,44 @@ hr{
 .download-cv{
    text-align: center;
 }
+
+
+
+
+/* footer && connect */
+
+
+.connect{
+    background: #FFF8F3;
+    display: flex;
+    gap: 117px;
+    margin-top: 113px;
+    padding: 130px 200px;
+}
+.connect .section-title{
+    text-align: left;
+    margin-bottom:20px;
+}
+.lets-connect-description{
+     margin-bottom: 30px;
+     color: var(--Dark-02, #474747);
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 28px;
+}
+
+.icones{
+    display: flex;
+    gap: 24px;
+    text-decoration: none;
+    
+}
+
+.connect input[type="text"],input[type="email"], textarea{
+     margin-bottom: 24px;
+     border: 0px;
+     width: 100%;
+     border-radius: 5px;
+     background: var(--White-Color, #FFF);
+     padding: 18px 30px;
+}
